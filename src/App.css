@@ -29,3 +29,6 @@
 .selectedString:hover {
   color: white !important;
 }
+.footerString:hover {
+  text-decoration: underline !important;
+}
