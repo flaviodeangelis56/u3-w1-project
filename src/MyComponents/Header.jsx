@@ -1,4 +1,5 @@
 import { Component } from "react";
+import { Dropdown, NavDropdown } from "react-bootstrap";
 
 class Header extends Component {
   render() {
@@ -7,47 +8,14 @@ class Header extends Component {
         <div>
           <h1 className="text-white d-inline-block mx-3">TV Shows</h1>
           <div className="bg-black d-inline-block border border-white">
-            <a
-              className="nav-link dropdown-toggle text-white p-2"
-              href="#"
-              role="button"
-              data-bs-toggle="dropdown"
-              aria-expanded="false"
-            >
-              Genres
-            </a>
-            <ul className="dropdown-menu">
-              <li>
-                <a className="dropdown-item" href="#">
-                  Action
-                </a>
-              </li>
-              <li>
-                <a className="dropdown-item" href="#">
-                  Drama
-                </a>
-              </li>
-              <li>
-                <a className="dropdown-item" href="#">
-                  Romantic comedy
-                </a>
-              </li>
-              <li>
-                <a className="dropdown-item" href="#">
-                  Documentary
-                </a>
-              </li>
-              <li>
-                <a className="dropdown-item" href="#">
-                  Cartoon/animation
-                </a>
-              </li>
-              <li>
-                <a className="dropdown-item" href="#">
-                  Musical
-                </a>
-              </li>
-            </ul>
+            <NavDropdown id="nav-dropdown-dark-example" title="Genres" menuVariant="dark" className="text-white p-1">
+              <NavDropdown.Item href="#action/3.1">Drama</NavDropdown.Item>
+              <NavDropdown.Item href="#action/3.2">Documentary</NavDropdown.Item>
+              <NavDropdown.Item href="#action/3.3">Romantic comedy</NavDropdown.Item>
+              <NavDropdown.Item href="#action/3.4">Cartoon/animation</NavDropdown.Item>
+              <NavDropdown.Item href="#action/3.4">Musical</NavDropdown.Item>
+              <NavDropdown.Item href="#action/3.4"> Action</NavDropdown.Item>
+            </NavDropdown>
           </div>
         </div>
         <div className="me-5">

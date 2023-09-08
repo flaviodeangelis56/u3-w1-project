@@ -4,6 +4,7 @@ import MyNavbar from "./MyComponents/Navbar";
 import Header from "./MyComponents/Header";
 import Main from "./MyComponents/Main";
 import MyFooter from "./MyComponents/MyFooter";
+import Profile from "./MyComponents/Profile";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Header />
       <Main />
       <MyFooter />
+      {/* <Profile /> */}
     </div>
   );
 }
