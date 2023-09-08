@@ -5,15 +5,17 @@ import Header from "./MyComponents/Header";
 import Main from "./MyComponents/Main";
 import MyFooter from "./MyComponents/MyFooter";
 import Profile from "./MyComponents/Profile";
+import Settings from "./MyComponents/Settings";
 
 function App() {
   return (
     <div className="App">
-      <MyNavbar />
+      <Settings />
+      {/* <MyNavbar />
       <Header />
       <Main />
       <MyFooter />
-      {/* <Profile /> */}
+      <Profile /> */}
     </div>
   );
 }
