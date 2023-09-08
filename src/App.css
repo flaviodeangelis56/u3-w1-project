@@ -1,38 +1,25 @@
-.App {
-  text-align: center;
+.divIcon {
+  width: 50px;
+  padding-left: 16px;
+  padding-bottom: 2px;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.editProfile {
+  margin-top: 80px;
+  font-size: 4.5rem;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.striveDiv {
+  background-color: grey;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.lingue {
+  margin: 0;
+  font-size: 175%;
 }
-
-.App-link {
-  color: #61dafb;
+.buttonProfile {
+  letter-spacing: 4px;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.buttonProfile1 {
+  letter-spacing: 4px;
+  scale: 1.3;
+  margin-right: 60px;
+  margin-top: 20px;
 }
