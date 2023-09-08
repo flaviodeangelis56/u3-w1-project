@@ -6,7 +6,7 @@ class Header extends Component {
     return (
       <header className="pt-3 d-flex align-items-center justify-content-between bg-dark pb-5">
         <div>
-          <h1 className="text-white d-inline-block mx-3">TV Shows</h1>
+          <h1 className="text-white d-inline-block mx-3">Movie Sagas</h1>
           <div className="bg-black d-inline-block border border-white">
             <NavDropdown id="nav-dropdown-dark-example" title="Genres" menuVariant="dark" className="text-white p-1">
               <NavDropdown.Item href="#action/3.1">Drama</NavDropdown.Item>

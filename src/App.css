@@ -32,3 +32,6 @@
 .footerString:hover {
   text-decoration: underline !important;
 }
+.posterSelected:hover {
+  box-shadow: 0 2px 0px rgb(135, 135, 135) !important;
+}

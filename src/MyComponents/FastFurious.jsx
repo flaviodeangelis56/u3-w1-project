@@ -28,12 +28,12 @@ class FastFurious extends Component {
     return (
       <div className="row mx-3 mb-2">
         {this.state.isLoading && <Spinner animation="grow" variant="danger" className="mx-auto" />}
-        {!this.state.isLoading && <img src={this.state.StarArr[0].Poster} alt="" className="col-2" />}
-        {!this.state.isLoading && <img src={this.state.StarArr[1].Poster} alt="" className="col-2" />}
-        {!this.state.isLoading && <img src={this.state.StarArr[2].Poster} alt="" className="col-2" />}
-        {!this.state.isLoading && <img src={this.state.StarArr[3].Poster} alt="" className="col-2" />}
-        {!this.state.isLoading && <img src={this.state.StarArr[4].Poster} alt="" className="col-2" />}
-        {!this.state.isLoading && <img src={this.state.StarArr[5].Poster} alt="" className="col-2" />}
+        {!this.state.isLoading && <img src={this.state.StarArr[0].Poster} alt="" className="col-2 posterSelected" />}
+        {!this.state.isLoading && <img src={this.state.StarArr[1].Poster} alt="" className="col-2 posterSelected" />}
+        {!this.state.isLoading && <img src={this.state.StarArr[2].Poster} alt="" className="col-2 posterSelected" />}
+        {!this.state.isLoading && <img src={this.state.StarArr[3].Poster} alt="" className="col-2 posterSelected" />}
+        {!this.state.isLoading && <img src={this.state.StarArr[4].Poster} alt="" className="col-2 posterSelected" />}
+        {!this.state.isLoading && <img src={this.state.StarArr[5].Poster} alt="" className="col-2 posterSelected" />}
       </div>
     );
   }

@@ -28,12 +28,48 @@ class Halloween extends Component {
     return (
       <div className="row mx-3">
         {this.state.isLoading && <Spinner animation="grow" variant="danger" className="mx-auto" />}
-        {!this.state.isLoading && <img src={this.state.HalloweenArr[0].Poster} alt="" className="col-2" />}
-        {!this.state.isLoading && <img src={this.state.HalloweenArr[1].Poster} alt="" className="col-2" />}
-        {!this.state.isLoading && <img src={this.state.HalloweenArr[2].Poster} alt="" className="col-2" />}
-        {!this.state.isLoading && <img src={this.state.HalloweenArr[3].Poster} alt="" className="col-2" />}
-        {!this.state.isLoading && <img src={this.state.HalloweenArr[4].Poster} alt="" className="col-2" />}
-        {!this.state.isLoading && <img src={this.state.HalloweenArr[5].Poster} alt="" className="col-2" />}
+        {!this.state.isLoading && (
+          <img
+            src={this.state.HalloweenArr[0].Poster}
+            alt=""
+            className="col-12 col-md-6 col-xl-2 mb-2 posterSelected"
+          />
+        )}
+        {!this.state.isLoading && (
+          <img
+            src={this.state.HalloweenArr[1].Poster}
+            alt=""
+            className="col-12 col-md-6 col-xl-2 mb-2 posterSelected"
+          />
+        )}
+        {!this.state.isLoading && (
+          <img
+            src={this.state.HalloweenArr[2].Poster}
+            alt=""
+            className="col-12 col-md-6 col-xl-2 mb-2 posterSelected"
+          />
+        )}
+        {!this.state.isLoading && (
+          <img
+            src={this.state.HalloweenArr[3].Poster}
+            alt=""
+            className="col-12 col-md-6 col-xl-2 mb-2 posterSelected"
+          />
+        )}
+        {!this.state.isLoading && (
+          <img
+            src={this.state.HalloweenArr[4].Poster}
+            alt=""
+            className="col-12 col-md-6 col-xl-2 mb-2 posterSelected"
+          />
+        )}
+        {!this.state.isLoading && (
+          <img
+            src={this.state.HalloweenArr[5].Poster}
+            alt=""
+            className="col-12 col-md-6 col-xl-2 mb-2 posterSelected"
+          />
+        )}
       </div>
     );
   }
