@@ -4,7 +4,7 @@ import { Dropdown, NavDropdown } from "react-bootstrap";
 class Header extends Component {
   render() {
     return (
-      <header className="pt-3 d-flex align-items-center justify-content-between bg-dark pb-5">
+      <header className="pt-3 d-flex align-items-center justify-content-between bgMain pb-5">
         <div>
           <h1 className="text-white d-inline-block mx-3">Movie Sagas</h1>
           <div className="bg-black d-inline-block border border-white">

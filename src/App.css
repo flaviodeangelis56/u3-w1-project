@@ -4,11 +4,11 @@
   padding-bottom: 2px;
 }
 .editProfile {
-  margin-top: 80px;
+  margin-top: 1.3rem;
   font-size: 4.5rem;
 }
 .striveDiv {
-  background-color: grey;
+  background-color: rgb(51, 51, 51);
 }
 .lingue {
   margin: 0;
@@ -34,4 +34,7 @@
 }
 .posterSelected:hover {
   box-shadow: 0 2px 0px rgb(135, 135, 135) !important;
+}
+.bgMain {
+  background-color: rgb(18, 18, 18);
 }

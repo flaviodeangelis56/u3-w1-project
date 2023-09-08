@@ -6,7 +6,7 @@ import Halloween from "./Halloween";
 class Main extends Component {
   render() {
     return (
-      <div className="bg-dark">
+      <div className="bgMain">
         <div className="pb-5">
           <h2 className="text-white mx-3 margin-90 pb-2">Harry Potter</h2>
           <HarryPotter />

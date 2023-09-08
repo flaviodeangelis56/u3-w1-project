@@ -4,14 +4,19 @@ import { Button, NavDropdown } from "react-bootstrap";
 class Profile extends Component {
   render() {
     return (
-      <div className="bg-dark text-white pb-5">
-        <img src="./Netflix-assets/assets/netflix_logo.png" alt="" style={{ width: "120px" }} className="m-3" />
+      <div className="bg-black text-white pb-5">
+        <img
+          src="https://www.edigitalagency.com.au/wp-content/uploads/Netflix-logo-red-black-png.png"
+          alt=""
+          style={{ width: "120px" }}
+          className="m-3"
+        />
         <div className="container" style={{ width: "900px" }}>
           <h1 className="editProfile">Edit Profile</h1>
           <hr />
           <div className="d-flex justify-content-between">
             <img
-              src="./Netflix-assets/assets/avatar.png"
+              src="https://i.pinimg.com/originals/fb/8e/8a/fb8e8a96fca2f049334f312086a6e2f6.png"
               alt=""
               style={{ width: "200px" }}
               className="align-self-start"
